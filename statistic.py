@@ -85,7 +85,7 @@ def correlation(total_df, sgg_nm):
     st.dataframe(corr_coef, use_container_width=False)
 
     # 폰트 설정
-    path = "font\H2HDRM.TTF"
+    path = "font/H2HDRM.TTF"
     fontprop = fm.FontProperties(fname=path, size=12)
 
 
