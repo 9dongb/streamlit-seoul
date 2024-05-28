@@ -10,7 +10,7 @@ import matplotlib.font_manager as fm
 def mapMatplotlib(merge_df):
 
     # 한글 폰트 설정
-    path = 'C:\\Windows\Fonts\H2MJRE.TTF'
+    path = "font\H2HDRM.TTF"
     fontprop = fm.FontProperties(fname=path, size=12)
 
     fig, ax = plt.subplots(ncols=2, sharey=True, figsize=(15, 10))
